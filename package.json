@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/G-MontaG/canvas#readme",
   "dependencies": {
+    "canvas-sketch": "^0.7.4",
     "normalize.css": "^8.0.1"
   }
 }

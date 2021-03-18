@@ -1,8 +1,6 @@
 // Ensure ThreeJS is in global scope for the 'examples/'
-import * as treeImport from "three";
-import * as dat from "dat.gui";
-
-global.THREE = treeImport;
+global.THREE = require("three");
+const dat = require("dat.gui");
 const gui = new dat.GUI();
 
 const canvasSketch = require("canvas-sketch");
